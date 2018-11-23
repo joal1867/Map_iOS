@@ -12,6 +12,19 @@
 		4D647CCC21A653AE008131DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CCA21A653AE008131DB /* Main.storyboard */; };
 		4D647CCE21A653AF008131DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CCD21A653AF008131DB /* Assets.xcassets */; };
 		4D647CD121A653AF008131DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CCF21A653AF008131DB /* LaunchScreen.storyboard */; };
+		4D647CDF21A68295008131DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647CDE21A68295008131DB /* AppDelegate.swift */; };
+		4D647CE121A68295008131DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647CE021A68295008131DB /* ViewController.swift */; };
+		4D647CE421A68295008131DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CE221A68295008131DB /* Main.storyboard */; };
+		4D647CE621A68297008131DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CE521A68297008131DB /* Assets.xcassets */; };
+		4D647CE921A68297008131DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CE721A68297008131DB /* LaunchScreen.storyboard */; };
+		4D647CF521A68FB4008131DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647CF421A68FB4008131DB /* AppDelegate.swift */; };
+		4D647CF721A68FB4008131DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647CF621A68FB4008131DB /* ViewController.swift */; };
+		4D647CFA21A68FB4008131DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CF821A68FB4008131DB /* Main.storyboard */; };
+		4D647CFC21A68FB5008131DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CFB21A68FB5008131DB /* Assets.xcassets */; };
+		4D647CFF21A68FB5008131DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D647CFD21A68FB5008131DB /* LaunchScreen.storyboard */; };
+		4D647D7921A79F8A008131DB /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647D7821A79F8A008131DB /* DetailTableViewController.swift */; };
+		4D647D7B21A7A13A008131DB /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647D7A21A7A13A008131DB /* MyTableViewCell.swift */; };
+		4D647D7D21A7B2FB008131DB /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D647D7C21A7B2FB008131DB /* RouteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +35,41 @@
 		4D647CCD21A653AF008131DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D647CD021A653AF008131DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D647CD221A653AF008131DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D647CDC21A68295008131DB /* Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D647CDE21A68295008131DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D647CE021A68295008131DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D647CE321A68295008131DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D647CE521A68297008131DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D647CE821A68297008131DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D647CEA21A68297008131DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D647CF221A68FB4008131DB /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D647CF421A68FB4008131DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D647CF621A68FB4008131DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D647CF921A68FB4008131DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D647CFB21A68FB5008131DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D647CFE21A68FB5008131DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D647D0021A68FB5008131DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D647D7821A79F8A008131DB /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		4D647D7A21A7A13A008131DB /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		4D647D7C21A7B2FB008131DB /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4D647CC021A653AE008131DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D647CD921A68295008131DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D647CEF21A68FB4008131DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				4D647CC521A653AE008131DB /* Map */,
+				4D647CDD21A68295008131DB /* Location */,
+				4D647CF321A68FB4008131DB /* MapView */,
 				4D647CC421A653AE008131DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				4D647CC321A653AE008131DB /* Map.app */,
+				4D647CDC21A68295008131DB /* Location.app */,
+				4D647CF221A68FB4008131DB /* MapView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +110,35 @@
 				4D647CD221A653AF008131DB /* Info.plist */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		4D647CDD21A68295008131DB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				4D647CDE21A68295008131DB /* AppDelegate.swift */,
+				4D647CE021A68295008131DB /* ViewController.swift */,
+				4D647CE221A68295008131DB /* Main.storyboard */,
+				4D647CE521A68297008131DB /* Assets.xcassets */,
+				4D647CE721A68297008131DB /* LaunchScreen.storyboard */,
+				4D647CEA21A68297008131DB /* Info.plist */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		4D647CF321A68FB4008131DB /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				4D647CF421A68FB4008131DB /* AppDelegate.swift */,
+				4D647CF621A68FB4008131DB /* ViewController.swift */,
+				4D647CF821A68FB4008131DB /* Main.storyboard */,
+				4D647CFB21A68FB5008131DB /* Assets.xcassets */,
+				4D647CFD21A68FB5008131DB /* LaunchScreen.storyboard */,
+				4D647D0021A68FB5008131DB /* Info.plist */,
+				4D647D7821A79F8A008131DB /* DetailTableViewController.swift */,
+				4D647D7A21A7A13A008131DB /* MyTableViewCell.swift */,
+				4D647D7C21A7B2FB008131DB /* RouteViewController.swift */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +161,40 @@
 			productReference = 4D647CC321A653AE008131DB /* Map.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4D647CDB21A68295008131DB /* Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D647CEB21A68297008131DB /* Build configuration list for PBXNativeTarget "Location" */;
+			buildPhases = (
+				4D647CD821A68295008131DB /* Sources */,
+				4D647CD921A68295008131DB /* Frameworks */,
+				4D647CDA21A68295008131DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Location;
+			productName = Location;
+			productReference = 4D647CDC21A68295008131DB /* Location.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D647CF121A68FB4008131DB /* MapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D647D0321A68FB5008131DB /* Build configuration list for PBXNativeTarget "MapView" */;
+			buildPhases = (
+				4D647CEE21A68FB4008131DB /* Sources */,
+				4D647CEF21A68FB4008131DB /* Frameworks */,
+				4D647CF021A68FB4008131DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapView;
+			productName = MapView;
+			productReference = 4D647CF221A68FB4008131DB /* MapView.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +206,12 @@
 				ORGANIZATIONNAME = Joal;
 				TargetAttributes = {
 					4D647CC221A653AE008131DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D647CDB21A68295008131DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D647CF121A68FB4008131DB = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +230,8 @@
 			projectRoot = "";
 			targets = (
 				4D647CC221A653AE008131DB /* Map */,
+				4D647CDB21A68295008131DB /* Location */,
+				4D647CF121A68FB4008131DB /* MapView */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +247,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D647CDA21A68295008131DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D647CE921A68297008131DB /* LaunchScreen.storyboard in Resources */,
+				4D647CE621A68297008131DB /* Assets.xcassets in Resources */,
+				4D647CE421A68295008131DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D647CF021A68FB4008131DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D647CFF21A68FB5008131DB /* LaunchScreen.storyboard in Resources */,
+				4D647CFC21A68FB5008131DB /* Assets.xcassets in Resources */,
+				4D647CFA21A68FB4008131DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +276,27 @@
 			files = (
 				4D647CC921A653AE008131DB /* ViewController.swift in Sources */,
 				4D647CC721A653AE008131DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D647CD821A68295008131DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D647CE121A68295008131DB /* ViewController.swift in Sources */,
+				4D647CDF21A68295008131DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D647CEE21A68FB4008131DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D647D7921A79F8A008131DB /* DetailTableViewController.swift in Sources */,
+				4D647D7B21A7A13A008131DB /* MyTableViewCell.swift in Sources */,
+				4D647CF721A68FB4008131DB /* ViewController.swift in Sources */,
+				4D647D7D21A7B2FB008131DB /* RouteViewController.swift in Sources */,
+				4D647CF521A68FB4008131DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +315,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				4D647CD021A653AF008131DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4D647CE221A68295008131DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D647CE321A68295008131DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D647CE721A68297008131DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D647CE821A68297008131DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4D647CF821A68FB4008131DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D647CF921A68FB4008131DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D647CFD21A68FB5008131DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D647CFE21A68FB5008131DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +504,74 @@
 			};
 			name = Release;
 		};
+		4D647CEC21A68297008131DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Location/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.jjoal1867.Location;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D647CED21A68297008131DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Location/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.jjoal1867.Location;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D647D0121A68FB5008131DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.jjoal1867.MapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D647D0221A68FB5008131DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.jjoal1867.MapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +589,24 @@
 			buildConfigurations = (
 				4D647CD621A653AF008131DB /* Debug */,
 				4D647CD721A653AF008131DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D647CEB21A68297008131DB /* Build configuration list for PBXNativeTarget "Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D647CEC21A68297008131DB /* Debug */,
+				4D647CED21A68297008131DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D647D0321A68FB5008131DB /* Build configuration list for PBXNativeTarget "MapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D647D0121A68FB5008131DB /* Debug */,
+				4D647D0221A68FB5008131DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

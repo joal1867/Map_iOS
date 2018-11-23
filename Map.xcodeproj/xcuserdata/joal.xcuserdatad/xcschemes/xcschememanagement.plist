@@ -4,10 +4,56 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Location.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Map.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>MapSearch.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MapView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D647CC221A653AE008131DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D647CDB21A68295008131DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D647CF121A68FB4008131DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D647D6521A7896D008131DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
